@@ -26,7 +26,7 @@ The project environment is similar to, but not identical to the Banana Collector
 
 ### Credit
 
-Credit for this project goes to https://github.com/BY571/DQN-Atari-Agents for helping with the priority replay, noisy, DDQN and Dueling-DQN networks.
+Credit goes to https://github.com/BY571/DQN-Atari-Agents adapting code to implement priority replay, noisy, DDQN and Dueling-DQN networks.
 
 ### Getting Started
 
