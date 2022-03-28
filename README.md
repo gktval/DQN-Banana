@@ -61,5 +61,6 @@ In the run method, you can change configuration options for the selected Deep Q-
 This graph shows the scores of the various trained DNQ agents used in this project. The DDQN and Dueling-DQN networks performed less well than the DQN network. Only the DQN and the DQN-noisy network reached an average targeted score of 13+ after 600 episodes. 
 The trained model weights from the DQN network are found here: https://github.com/gktval/DQN-banana/blob/main/python/scores/dqn_checkpoint.pth
 
-[image1]: https://github.com/gktval/DQN-banana/blob/main/Summary%20Results.png "Scores of trained agents within 800 games"
+[//]: # (Image References)
+[image2]: https://github.com/gktval/DQN-banana/blob/main/Summary%20Results.png "Scores of trained agents within 800 games"
 
