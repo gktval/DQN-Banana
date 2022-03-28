@@ -243,12 +243,10 @@ def showScores():
                     np.array([iterations])[0],
                     np.array([scores])[0],
                     label=os.path.basename(file).split('.')[0],
-                    #line_kws={"color": "#F49F05"}
                 )
             # Plot the average line
             y_mean = [np.mean(scores)]*len(iterations)
             
-            #ax.plot(iterations,y_mean, label='Mean', linestyle='--')
             ax.legend(loc='upper left')
             ax.set(xlabel='# games', ylabel='score')
             
@@ -260,7 +258,7 @@ def showScores():
 
 if __name__ == '__main__':
     # Set options to activate or deactivate the game view, and its speed 
-    #run(True, dqn_types.dqn)
+    run(True, dqn_types.dqn)
 
     #show all scores in scores folder
-    showScores()
+    #showScores()
