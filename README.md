@@ -2,7 +2,7 @@
 
 [image1]: https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif "Banana Environment"
 
-# Value-Based Methods
+# DQN Banana Agent
 
 ![Trained Agents][image1]
 
