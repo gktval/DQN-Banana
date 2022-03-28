@@ -13,20 +13,6 @@ class Config(object):
         #Random seed
         self.seed = 0
 
-        #PPO controls
-        self.ppo_epoch = 3
-        self.num_mini_batch = 32
-        self.ppo_clip_param = 0.1
-
-        #a2c controls
-        self.num_agents = 8
-        self.rollout = 16
-        self.value_loss_weight = 0.5
-        self.entropy_loss_weight = 0.001
-        self.grad_norm_max = 0.5
-        self.USE_GAE=True
-        self.gae_tau = 0.95
-
         #algorithm control
         self.USE_NOISY_NETS=False
         self.USE_PRIORITY_REPLAY=False

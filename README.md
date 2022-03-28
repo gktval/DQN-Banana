@@ -29,17 +29,10 @@ The project environment is similar to, but not identical to the Banana Collector
 This project simulates an environment from [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 
 1.    Download the environment from one of the links below. You need only select the environment that matches your operating system:
-        Linux: click here
-        Mac OSX: click here
-        Windows (32-bit): click here
-        Windows (64-bit): click here
-
-    (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-
-    (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
-
-    Place the file in this GitHub repository, in the p1_navigation/ folder, and unzip (or decompress) the file.
-
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
+		- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
+		- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
+		- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
 
 2. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
@@ -59,3 +52,9 @@ Running the code without any changes will start a unity session and train the DQ
 	Dueling-DQN
 
 In the run method, you can change configuration options for the selected Deep Q-Network. This includes the use of noisy networks and priority replay buffers. The results of the training will be stored in a folder called `scores` location in the `python` folder. After running several of the DQN networks, you can replay the trained agent by changing the `isTest` variable passed into the `run()` method. You should also change filename of the checkpoint in `WatchSmartAgent` to the checkpoint you wish to replay. Furthermore, this method will display the scores of all trained agents in the `scores` folder.
+
+### Summary
+This graph shows the scores of the various trained DNQ agents used in this project. The DDQN and Dueling-DQN networks performed less well than the DQN network. Only the DQN and the DQN-noisy network reached an average targeted score of 13+ after 600 episodes. 
+
+[image1]: https://github.com/gktval/DQN-banana/blob/main/Summary%20Results.png "Scores of trained agents within 800 games"
+
