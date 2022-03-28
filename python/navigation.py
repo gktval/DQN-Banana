@@ -248,12 +248,7 @@ def showScores():
             y_mean = [np.mean(scores)]*len(iterations)
             
             ax.legend(loc='upper left')
-            ax.set(xlabel='# games', ylabel='score')
-            
-
-            
-            
-
+            ax.set(xlabel='# games', ylabel='score')        
     plt.show()
 
 if __name__ == '__main__':

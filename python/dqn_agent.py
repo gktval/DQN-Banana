@@ -37,9 +37,6 @@ class Agent():
         self.is_noisy = config.USE_NOISY_NETS
         self.layer_size = config.layer_size
         self.device = config.device
-        self.atoms = config.ATOMS 
-        self.v_max = config.V_MAX 
-        self.v_min = config.V_MIN 
         randomSeed = random.seed(self.seed)
         
         # Q-Network

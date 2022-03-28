@@ -55,11 +55,11 @@ Running the code without any changes will start a unity session and train the DQ
 	DDQN
 	Dueling-DQN
 
-In the run method, you can change configuration options for the selected Deep Q-Network. This includes the use of noisy networks and priority replay buffers. The results of the training will be stored in a folder called `scores` location in the `python` folder. After running several of the DQN networks, you can replay the trained agent by changing the `isTest` variable passed into the `run()` method. You should also change filename of the checkpoint in `WatchSmartAgent` to the checkpoint you wish to replay. Furthermore, this method will display the scores of all trained agents in the `scores` folder.
+In the run method, you can change configuration options for the selected Deep Q-Network. This includes the use of noisy networks and priority replay buffers. The results of the training will be stored in a folder called `scores` located in the `python` folder. After running several of the DQN networks, you can replay the trained agent by changing the `isTest` variable passed into the `run()` method. You should also change filename of the checkpoint in `WatchSmartAgent` to the checkpoint you wish to replay. Furthermore, this method will display the scores of all trained agents in the `scores` folder.
 
 ### Report
 This graph shows the scores of the various trained DNQ agents used in this project. The DDQN and Dueling-DQN networks performed less well than the DQN network. Only the DQN and the DQN-noisy network reached an average targeted score of 13+ after 600 episodes. 
-The trained model weights from the DQN network are found here: https://github.com/gktval/DQN-banana/blob/main/python/scores/dqn_checkpoint.pth
+The trained model weights from the DQN network are found here: /python/scores/dqn_checkpoint.pth
 
 ![Pong](Summary%20Results.png)"Scores of trained agents within 800 games"
 
