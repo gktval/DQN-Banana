@@ -10,7 +10,7 @@ This repository contains material related to Udacity's Value-based Methods cours
 
 ### Project Details
 
-The code lead you through implementing various algorithms in reinforcement learning.  All of the code is in PyTorch (v0.4) and Python 3.
+The code will lead you through implementing various algorithms in reinforcement learning for value based scenarios.  All of the code is in PyTorch (v0.4) and Python 3.
 This code uses three Deep Q-Networks for training an agent to navigate (and collect bananas!) in a large, square world.
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
